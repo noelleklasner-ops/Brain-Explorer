@@ -1,0 +1,22 @@
+{
+  "atlas": {
+    "name": "Schaefer local-global parcellation (Schaefer et al. 2018)",
+    "description": "Cortical parcels obtained from resting-state functional connectivity of 1489 subjects, combining local gradients and global similarity. Each parcel is assigned to one of the Yeo 7 networks; the parcel name is network, approximate location and index.",
+    "reference": {"text": "Schaefer A et al. (2018). Local-global parcellation of the human cerebral cortex from intrinsic functional connectivity MRI. Cereb Cortex 28, 3095-3114.", "doi": "10.1093/cercor/bhx179"},
+    "data_source": "fsLR 32k dlabel files (7-network order) from the CBIG GitHub repository (ThomasYeoLab/CBIG).",
+    "note": "Parcels show the description of their network. Location abbreviations in parcel names (e.g. pCunPCC, IPL) are from the Schaefer et al. 2018 label files."
+  },
+  "regions": {
+    "Vis": {"full_name": "Visual network parcel", "location": "Occipital lobe and posterior temporal/parietal cortex.", "function": "Visual processing.", "status": "established", "references": []},
+    "SomMot": {"full_name": "Somatomotor network parcel", "location": "Pre- and postcentral gyri, extending into auditory cortex.", "function": "Motor and somatosensory cortex; auditory cortex is included in the 7-network solution.", "status": "established", "references": []},
+    "DorsAttn": {"full_name": "Dorsal attention network parcel", "location": "Intraparietal sulcus, superior parietal lobule, frontal eye fields and MT+.", "function": "Top-down, goal-directed control of spatial attention.", "status": "established",
+      "references": [{"text": "Corbetta M, Shulman GL (2002). Control of goal-directed and stimulus-driven attention in the brain. Nat Rev Neurosci 3, 201-215.", "doi": "10.1038/nrn755"}]},
+    "SalVentAttn": {"full_name": "Salience / ventral attention network parcel", "location": "Temporo-parietal junction, ventral frontal cortex, anterior insula and dorsal anterior cingulate.", "function": "Stimulus-driven reorienting of attention and salience detection.", "status": "established (naming differs between studies)",
+      "references": [{"text": "Seeley WW et al. (2007). Dissociable intrinsic connectivity networks for salience processing and executive control. J Neurosci 27, 2349-2356.", "doi": "10.1523/JNEUROSCI.5587-06.2007"}]},
+    "Limbic": {"full_name": "Limbic network parcel", "location": "Temporal pole and orbitofrontal cortex.", "function": "Functionally heterogeneous; fMRI signal here suffers from susceptibility artefacts, so boundaries are less reliable.", "status": "tentative", "references": []},
+    "Cont": {"full_name": "Control (frontoparietal) network parcel", "location": "Lateral prefrontal cortex, anterior inferior parietal lobule and part of the precuneus.", "function": "Cognitive control and executive function.", "status": "established",
+      "references": [{"text": "Vincent JL et al. (2008). Evidence for a frontoparietal control system revealed by intrinsic functional connectivity. J Neurophysiol 100, 3328-3342.", "doi": "10.1152/jn.90355.2008"}]},
+    "Default": {"full_name": "Default mode network parcel", "location": "Medial prefrontal cortex, posterior cingulate/precuneus, angular gyrus and lateral temporal cortex.", "function": "More active at rest than during externally directed tasks; linked to self-referential thought, memory retrieval and mental simulation.", "status": "established",
+      "references": [{"text": "Raichle ME et al. (2001). A default mode of brain function. PNAS 98, 676-682.", "doi": "10.1073/pnas.98.2.676"}]}
+  }
+}

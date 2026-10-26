@@ -1,0 +1,814 @@
+{
+  "atlas": {
+    "name": "HCP-MMP1.0 (Glasser et al. 2016)",
+    "description": "Multi-modal parcellation of the cerebral cortex into 180 areas per hemisphere, based on cortical thickness, myelin maps, resting-state and task fMRI from the Human Connectome Project.",
+    "reference": {
+      "text": "Glasser MF et al. (2016). A multi-modal parcellation of human cerebral cortex. Nature 536, 171-178.",
+      "doi": "10.1038/nature18933"
+    },
+    "data_source": "Vertex labels on fsLR 32k from micapipe (MICA-MNI); region abbreviations from the Glasser et al. 2016 supplementary table.",
+    "note": "Only regions listed below have curated descriptions. All other regions show their atlas abbreviation only."
+  },
+  "regions": {
+    "V1": {
+      "full_name": "Primary Visual Cortex",
+      "location": "Occipital lobe, banks of the calcarine sulcus (medial surface).",
+      "function": "First cortical stage of visual processing. Contains a retinotopic map of the contralateral visual hemifield; neurons are tuned to orientation, spatial frequency and ocular dominance.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Wandell BA, Dumoulin SO, Brewer AA (2007). Visual field maps in human cortex. Neuron 56, 366-383.",
+          "doi": "10.1016/j.neuron.2007.10.012"
+        }
+      ]
+    },
+    "V2": {
+      "full_name": "Second Visual Area",
+      "location": "Occipital lobe, surrounding V1 on the medial and lateral surface.",
+      "function": "Second retinotopic map; receives most of its input from V1 and processes contours, texture and binocular disparity.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Wandell BA, Dumoulin SO, Brewer AA (2007). Visual field maps in human cortex. Neuron 56, 366-383.",
+          "doi": "10.1016/j.neuron.2007.10.012"
+        }
+      ]
+    },
+    "V4": {
+      "full_name": "Fourth Visual Area",
+      "location": "Ventral occipital cortex, anterior to V3.",
+      "function": "Involved in colour and form processing; human V4 (hV4) is retinotopically organised. Its exact homology with macaque V4 is debated.",
+      "status": "established (homology to macaque V4 debated)",
+      "references": [
+        {
+          "text": "Zeki S et al. (1991). A direct demonstration of functional specialization in human visual cortex. J Neurosci 11, 641-649.",
+          "doi": "10.1523/JNEUROSCI.11-03-00641.1991"
+        },
+        {
+          "text": "Wandell BA, Dumoulin SO, Brewer AA (2007). Visual field maps in human cortex. Neuron 56, 366-383.",
+          "doi": "10.1016/j.neuron.2007.10.012"
+        }
+      ]
+    },
+    "MT": {
+      "full_name": "Middle Temporal Area",
+      "location": "Lateral occipito-temporal cortex, near the ascending limb of the inferior temporal sulcus.",
+      "function": "Core of the human motion complex (MT+/V5): responds strongly to visual motion and is involved in perceiving motion direction and speed.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Zeki S et al. (1991). A direct demonstration of functional specialization in human visual cortex. J Neurosci 11, 641-649.",
+          "doi": "10.1523/JNEUROSCI.11-03-00641.1991"
+        },
+        {
+          "text": "Tootell RB et al. (1995). Functional analysis of human MT and related visual cortical areas using magnetic resonance imaging. J Neurosci 15, 3215-3230.",
+          "doi": "10.1523/JNEUROSCI.15-04-03215.1995"
+        }
+      ]
+    },
+    "FFC": {
+      "full_name": "Fusiform Face Complex",
+      "location": "Ventral temporal cortex, lateral fusiform gyrus.",
+      "function": "Responds more strongly to faces than to other objects (fusiform face area). The Glasser parcel is larger than the classic fMRI-defined FFA and also covers neighbouring object-selective cortex.",
+      "status": "established (parcel boundaries differ from the classic FFA)",
+      "references": [
+        {
+          "text": "Kanwisher N, McDermott J, Chun MM (1997). The fusiform face area: a module in human extrastriate cortex specialized for face perception. J Neurosci 17, 4302-4311.",
+          "doi": "10.1523/JNEUROSCI.17-11-04302.1997"
+        }
+      ]
+    },
+    "A1": {
+      "full_name": "Primary Auditory Cortex",
+      "location": "Heschl's gyrus (transverse temporal gyrus), inside the Sylvian fissure.",
+      "function": "Core auditory cortex with tonotopic organisation (orderly map of sound frequency).",
+      "status": "established",
+      "references": [
+        {
+          "text": "Moerel M, De Martino F, Formisano E (2014). An anatomical and functional topography of human auditory cortical areas. Front Neurosci 8, 225.",
+          "doi": "10.3389/fnins.2014.00225"
+        }
+      ]
+    },
+    "4": {
+      "full_name": "Primary Motor Cortex",
+      "location": "Precentral gyrus and anterior bank of the central sulcus.",
+      "function": "Origin of much of the corticospinal tract; somatotopically organised (motor homunculus) control of contralateral body movements.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Penfield W, Boldrey E (1937). Somatic motor and sensory representation in the cerebral cortex of man as studied by electrical stimulation. Brain 60, 389-443.",
+          "doi": "10.1093/brain/60.4.389"
+        }
+      ]
+    },
+    "3b": {
+      "full_name": "Primary Sensory Cortex",
+      "location": "Posterior bank of the central sulcus / postcentral gyrus.",
+      "function": "Primary somatosensory cortex in the strict sense: somatotopic representation of cutaneous touch from the contralateral body.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Kaas JH (1983). What, if anything, is SI? Organization of first somatosensory area of cortex. Physiol Rev 63, 206-231.",
+          "doi": "10.1152/physrev.1983.63.1.206"
+        },
+        {
+          "text": "Penfield W, Boldrey E (1937). Somatic motor and sensory representation in the cerebral cortex of man as studied by electrical stimulation. Brain 60, 389-443.",
+          "doi": "10.1093/brain/60.4.389"
+        }
+      ]
+    },
+    "44": {
+      "full_name": "Area 44",
+      "location": "Inferior frontal gyrus, pars opercularis (posterior part of Broca's region).",
+      "function": "Part of Broca's region. Involved in speech production and syntactic processing; also engaged by non-linguistic tasks such as action observation and sequencing, so its role is not language-specific.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Amunts K et al. (1999). Broca's region revisited: cytoarchitecture and intersubject variability. J Comp Neurol 412, 319-341.",
+          "doi": "10.1002/(SICI)1096-9861(19990920)412:2<319::AID-CNE10>3.0.CO;2-7"
+        },
+        {
+          "text": "Hagoort P (2005). On Broca, brain, and binding: a new framework. Trends Cogn Sci 9, 416-423.",
+          "doi": "10.1016/j.tics.2005.07.004"
+        }
+      ]
+    },
+    "45": {
+      "full_name": "Area 45",
+      "location": "Inferior frontal gyrus, pars triangularis (anterior part of Broca's region).",
+      "function": "Part of Broca's region. Associated with semantic processing and controlled retrieval of word meaning; typically left-lateralised for language.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Amunts K et al. (1999). Broca's region revisited: cytoarchitecture and intersubject variability. J Comp Neurol 412, 319-341.",
+          "doi": "10.1002/(SICI)1096-9861(19990920)412:2<319::AID-CNE10>3.0.CO;2-7"
+        },
+        {
+          "text": "Hagoort P (2005). On Broca, brain, and binding: a new framework. Trends Cogn Sci 9, 416-423.",
+          "doi": "10.1016/j.tics.2005.07.004"
+        }
+      ]
+    },
+    "FEF": {
+      "full_name": "Frontal Eye Fields",
+      "location": "Precentral sulcus near its junction with the superior frontal sulcus.",
+      "function": "Control of voluntary saccadic eye movements and shifts of visuospatial attention; node of the dorsal attention network.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Paus T (1996). Location and function of the human frontal eye-field: a selective review. Neuropsychologia 34, 475-483.",
+          "doi": "10.1016/0028-3932(95)00134-4"
+        },
+        {
+          "text": "Corbetta M, Shulman GL (2002). Control of goal-directed and stimulus-driven attention in the brain. Nat Rev Neurosci 3, 201-215.",
+          "doi": "10.1038/nrn755"
+        }
+      ]
+    },
+    "55b": {
+      "full_name": "Area 55b",
+      "location": "Precentral gyrus, between the frontal eye field and premotor cortex.",
+      "function": "Newly delineated in HCP-MMP1.0; activated by the HCP language task (story versus maths contrast). Its function is not yet well characterised beyond this.",
+      "status": "tentative",
+      "references": [
+        {
+          "text": "Glasser MF et al. (2016). A multi-modal parcellation of human cerebral cortex. Nature 536, 171-178.",
+          "doi": "10.1038/nature18933"
+        }
+      ]
+    },
+    "PSL": {
+      "full_name": "PeriSylvian Language Area",
+      "location": "Posterior end of the Sylvian fissure, at the temporo-parietal junction.",
+      "function": "Named in HCP-MMP1.0 for its activation in the language task contrast. Lies near classic 'Wernicke's area' territory, but the parcel is defined multimodally, not clinically.",
+      "status": "tentative",
+      "references": [
+        {
+          "text": "Glasser MF et al. (2016). A multi-modal parcellation of human cerebral cortex. Nature 536, 171-178.",
+          "doi": "10.1038/nature18933"
+        }
+      ]
+    },
+    "EC": {
+      "full_name": "Entorhinal Cortex",
+      "location": "Anterior medial temporal lobe, parahippocampal gyrus.",
+      "function": "Main interface between neocortex and hippocampus; involved in memory and spatial navigation (grid-cell-like signals reported in humans).",
+      "status": "established",
+      "references": [
+        {
+          "text": "Doeller CF, Barry C, Burgess N (2010). Evidence for grid cells in a human memory network. Nature 463, 657-661.",
+          "doi": "10.1038/nature08704"
+        }
+      ]
+    },
+    "V3": {
+      "full_name": "Third Visual Area",
+      "location": "Occipital lobe, surrounding V2 dorsally and ventrally.",
+      "function": "Third retinotopic map of the contralateral hemifield; part of early visual cortex.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Wandell BA, Dumoulin SO, Brewer AA (2007). Visual field maps in human cortex. Neuron 56, 366-383.",
+          "doi": "10.1016/j.neuron.2007.10.012"
+        }
+      ]
+    },
+    "MST": {
+      "full_name": "Medial Superior Temporal Area",
+      "location": "Lateral occipito-temporal cortex, anterior to MT; part of the MT+ complex.",
+      "function": "Motion processing with large receptive fields that include the ipsilateral visual field; implicated in optic-flow and self-motion analysis.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Huk AC, Dougherty RF, Heeger DJ (2002). Retinotopy and functional subdivision of human areas MT and MST. J Neurosci 22, 7195-7205.",
+          "doi": "10.1523/JNEUROSCI.22-16-07195.2002"
+        }
+      ]
+    },
+    "LO1": {
+      "full_name": "Area Lateral Occipital 1",
+      "location": "Lateral occipital cortex, between V3d and MT.",
+      "function": "Retinotopically organised part of the lateral occipital complex, which responds to objects and shapes.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Larsson J, Heeger DJ (2006). Two retinotopic visual areas in human lateral occipital cortex. J Neurosci 26, 13128-13142.",
+          "doi": "10.1523/JNEUROSCI.1657-06.2006"
+        },
+        {
+          "text": "Grill-Spector K, Kourtzi Z, Kanwisher N (2001). The lateral occipital complex and its role in object recognition. Vision Res 41, 1409-1422.",
+          "doi": "10.1016/S0042-6989(01)00073-6"
+        }
+      ]
+    },
+    "LO2": {
+      "full_name": "Area Lateral Occipital 2",
+      "location": "Lateral occipital cortex, anterior to LO1.",
+      "function": "Second retinotopic map in the lateral occipital complex; object and shape processing.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Larsson J, Heeger DJ (2006). Two retinotopic visual areas in human lateral occipital cortex. J Neurosci 26, 13128-13142.",
+          "doi": "10.1523/JNEUROSCI.1657-06.2006"
+        },
+        {
+          "text": "Grill-Spector K, Kourtzi Z, Kanwisher N (2001). The lateral occipital complex and its role in object recognition. Vision Res 41, 1409-1422.",
+          "doi": "10.1016/S0042-6989(01)00073-6"
+        }
+      ]
+    },
+    "3a": {
+      "full_name": "Area 3a",
+      "location": "Depth of the central sulcus, between motor area 4 and area 3b.",
+      "function": "Proprioceptive somatosensory cortex: receives muscle-spindle input about limb position.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Kaas JH (1983). What, if anything, is SI? Organization of first somatosensory area of cortex. Physiol Rev 63, 206-231.",
+          "doi": "10.1152/physrev.1983.63.1.206"
+        }
+      ]
+    },
+    "1": {
+      "full_name": "Area 1",
+      "location": "Crown of the postcentral gyrus, posterior to 3b.",
+      "function": "Somatosensory area processing cutaneous input, e.g. texture; contains its own somatotopic map.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Kaas JH (1983). What, if anything, is SI? Organization of first somatosensory area of cortex. Physiol Rev 63, 206-231.",
+          "doi": "10.1152/physrev.1983.63.1.206"
+        }
+      ]
+    },
+    "2": {
+      "full_name": "Area 2",
+      "location": "Posterior postcentral gyrus, anterior bank of the postcentral sulcus.",
+      "function": "Somatosensory area integrating proprioceptive and tactile input, e.g. for object shape and size.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Kaas JH (1983). What, if anything, is SI? Organization of first somatosensory area of cortex. Physiol Rev 63, 206-231.",
+          "doi": "10.1152/physrev.1983.63.1.206"
+        }
+      ]
+    },
+    "6mp": {
+      "full_name": "Area 6mp",
+      "location": "Medial superior frontal gyrus, posterior part (supplementary motor area territory).",
+      "function": "Corresponds roughly to the supplementary motor area (SMA): movement sequencing and initiation, bimanual coordination.",
+      "status": "established (parcel-to-SMA correspondence approximate)",
+      "references": [
+        {
+          "text": "Nachev P, Kennard C, Husain M (2008). Functional role of the supplementary and pre-supplementary motor areas. Nat Rev Neurosci 9, 856-869.",
+          "doi": "10.1038/nrn2478"
+        }
+      ]
+    },
+    "6ma": {
+      "full_name": "Area 6m anterior",
+      "location": "Medial superior frontal gyrus, anterior to 6mp (pre-SMA territory).",
+      "function": "Corresponds roughly to the pre-supplementary motor area: cognitive aspects of action such as switching, inhibition and sequence learning.",
+      "status": "established (parcel-to-pre-SMA correspondence approximate)",
+      "references": [
+        {
+          "text": "Nachev P, Kennard C, Husain M (2008). Functional role of the supplementary and pre-supplementary motor areas. Nat Rev Neurosci 9, 856-869.",
+          "doi": "10.1038/nrn2478"
+        }
+      ]
+    },
+    "SCEF": {
+      "full_name": "Supplementary and Cingulate Eye Field",
+      "location": "Medial frontal cortex, dorsal to the cingulate sulcus.",
+      "function": "Named for activation during eye-movement tasks in the HCP data; the supplementary eye field is known from monkey work, but the human parcel is less well characterised.",
+      "status": "tentative",
+      "references": [
+        {
+          "text": "Glasser MF et al. (2016). A multi-modal parcellation of human cerebral cortex. Nature 536, 171-178.",
+          "doi": "10.1038/nature18933"
+        }
+      ]
+    },
+    "RSC": {
+      "full_name": "RetroSplenial Complex",
+      "location": "Medial parietal cortex, posterior to the splenium of the corpus callosum.",
+      "function": "Scene processing and spatial navigation, especially orienting the viewer within a familiar environment and memory for places.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Epstein RA (2008). Parahippocampal and retrosplenial contributions to human spatial navigation. Trends Cogn Sci 12, 388-396.",
+          "doi": "10.1016/j.tics.2008.07.004"
+        }
+      ]
+    },
+    "PHA1": {
+      "full_name": "ParaHippocampal Area 1",
+      "location": "Medial ventral temporal lobe, parahippocampal gyrus.",
+      "function": "Part of the parahippocampal place area, which responds strongly to scenes and spatial layouts.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Epstein R, Kanwisher N (1998). A cortical representation of the local visual environment. Nature 392, 598-601.",
+          "doi": "10.1038/33402"
+        },
+        {
+          "text": "Epstein RA (2008). Parahippocampal and retrosplenial contributions to human spatial navigation. Trends Cogn Sci 12, 388-396.",
+          "doi": "10.1016/j.tics.2008.07.004"
+        }
+      ]
+    },
+    "PHA2": {
+      "full_name": "ParaHippocampal Area 2",
+      "location": "Medial ventral temporal lobe, parahippocampal gyrus.",
+      "function": "Part of the parahippocampal place area, which responds strongly to scenes and spatial layouts.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Epstein R, Kanwisher N (1998). A cortical representation of the local visual environment. Nature 392, 598-601.",
+          "doi": "10.1038/33402"
+        },
+        {
+          "text": "Epstein RA (2008). Parahippocampal and retrosplenial contributions to human spatial navigation. Trends Cogn Sci 12, 388-396.",
+          "doi": "10.1016/j.tics.2008.07.004"
+        }
+      ]
+    },
+    "PHA3": {
+      "full_name": "ParaHippocampal Area 3",
+      "location": "Medial ventral temporal lobe, parahippocampal gyrus.",
+      "function": "Part of the parahippocampal place area, which responds strongly to scenes and spatial layouts.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Epstein R, Kanwisher N (1998). A cortical representation of the local visual environment. Nature 392, 598-601.",
+          "doi": "10.1038/33402"
+        },
+        {
+          "text": "Epstein RA (2008). Parahippocampal and retrosplenial contributions to human spatial navigation. Trends Cogn Sci 12, 388-396.",
+          "doi": "10.1016/j.tics.2008.07.004"
+        }
+      ]
+    },
+    "H": {
+      "full_name": "Hippocampus",
+      "location": "Medial temporal lobe; only the part reaching the cortical surface model is included in this parcel.",
+      "function": "Essential for forming new declarative memories and for spatial memory; damage causes anterograde amnesia.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Scoville WB, Milner B (1957). Loss of recent memory after bilateral hippocampal lesions. J Neurol Neurosurg Psychiatry 20, 11-21.",
+          "doi": "10.1136/jnnp.20.1.11"
+        },
+        {
+          "text": "Squire LR (1992). Memory and the hippocampus: a synthesis from findings with rats, monkeys, and humans. Psychol Rev 99, 195-231.",
+          "doi": "10.1037/0033-295X.99.2.195"
+        }
+      ]
+    },
+    "PeEc": {
+      "full_name": "Perirhinal Ectorhinal Cortex",
+      "location": "Anterior medial temporal lobe, lateral to the entorhinal cortex.",
+      "function": "Object recognition memory and fine object discrimination at the interface of visual perception and memory.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Murray EA, Bussey TJ, Saksida LM (2007). Visual perception and memory: a new view of medial temporal lobe function in primates and rodents. Annu Rev Neurosci 30, 99-122.",
+          "doi": "10.1146/annurev.neuro.29.051605.113046"
+        }
+      ]
+    },
+    "AVI": {
+      "full_name": "Anterior Ventral Insular Area",
+      "location": "Anterior insula, ventral part.",
+      "function": "Interoception and subjective feeling states; a core node of the salience network.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Craig AD (2009). How do you feel - now? The anterior insula and human awareness. Nat Rev Neurosci 10, 59-70.",
+          "doi": "10.1038/nrn2555"
+        }
+      ]
+    },
+    "AAIC": {
+      "full_name": "Anterior Agranular Insula Complex",
+      "location": "Anterior insula, agranular part near the frontal operculum.",
+      "function": "Interoception, emotional awareness and salience processing.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Craig AD (2009). How do you feel - now? The anterior insula and human awareness. Nat Rev Neurosci 10, 59-70.",
+          "doi": "10.1038/nrn2555"
+        }
+      ]
+    },
+    "a24pr": {
+      "full_name": "Anterior 24 prime",
+      "location": "Dorsal anterior cingulate / anterior midcingulate cortex.",
+      "function": "Integrates negative affect, pain and cognitive control; involved in adaptive control of behaviour.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Shackman AJ et al. (2011). The integration of negative affect, pain and cognitive control in the cingulate cortex. Nat Rev Neurosci 12, 154-167.",
+          "doi": "10.1038/nrn2994"
+        }
+      ]
+    },
+    "p24pr": {
+      "full_name": "Posterior 24 prime",
+      "location": "Dorsal midcingulate cortex, posterior to a24pr.",
+      "function": "Midcingulate region involved in cognitive control, pain and motor-related processing.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Shackman AJ et al. (2011). The integration of negative affect, pain and cognitive control in the cingulate cortex. Nat Rev Neurosci 12, 154-167.",
+          "doi": "10.1038/nrn2994"
+        }
+      ]
+    },
+    "v23ab": {
+      "full_name": "Area ventral 23 a+b",
+      "location": "Ventral posterior cingulate cortex.",
+      "function": "Core of the default mode network: internally directed cognition, memory retrieval and self-referential thought.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Leech R, Sharp DJ (2014). The role of the posterior cingulate cortex in cognition and disease. Brain 137, 12-32.",
+          "doi": "10.1093/brain/awt162"
+        }
+      ]
+    },
+    "d23ab": {
+      "full_name": "Area dorsal 23 a+b",
+      "location": "Dorsal posterior cingulate cortex.",
+      "function": "Posterior cingulate region of the default mode network; its dorsal part also interacts with attention and control networks.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Leech R, Sharp DJ (2014). The role of the posterior cingulate cortex in cognition and disease. Brain 137, 12-32.",
+          "doi": "10.1093/brain/awt162"
+        }
+      ]
+    },
+    "31pv": {
+      "full_name": "Area 31p ventral",
+      "location": "Posterior cingulate / precuneus border.",
+      "function": "Part of the posterior cingulate hub of the default mode network.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Leech R, Sharp DJ (2014). The role of the posterior cingulate cortex in cognition and disease. Brain 137, 12-32.",
+          "doi": "10.1093/brain/awt162"
+        }
+      ]
+    },
+    "PGi": {
+      "full_name": "Area PGi",
+      "location": "Angular gyrus, inferior part.",
+      "function": "Semantic processing, memory retrieval and social cognition; part of the default mode network.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Seghier ML (2013). The angular gyrus: multiple functions and multiple subdivisions. Neuroscientist 19, 43-61.",
+          "doi": "10.1177/1073858412440596"
+        }
+      ]
+    },
+    "PGs": {
+      "full_name": "Area PGs",
+      "location": "Angular gyrus, superior part.",
+      "function": "Angular gyrus subdivision involved in memory retrieval, semantic processing and attention to internal representations.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Seghier ML (2013). The angular gyrus: multiple functions and multiple subdivisions. Neuroscientist 19, 43-61.",
+          "doi": "10.1177/1073858412440596"
+        }
+      ]
+    },
+    "TPOJ1": {
+      "full_name": "Area TemporoParietoOccipital Junction 1",
+      "location": "Posterior superior temporal sulcus / temporo-parietal junction.",
+      "function": "Lies in the temporo-parietal junction territory associated with theory of mind and social cognition; the correspondence between the parcel and functionally defined TPJ is approximate.",
+      "status": "tentative",
+      "references": [
+        {
+          "text": "Saxe R, Kanwisher N (2003). People thinking about thinking people: the role of the temporo-parietal junction in 'theory of mind'. NeuroImage 19, 1835-1842.",
+          "doi": "10.1016/S1053-8119(03)00230-1"
+        }
+      ]
+    },
+    "STSdp": {
+      "full_name": "Area STSd posterior",
+      "location": "Posterior superior temporal sulcus, dorsal bank.",
+      "function": "Social perception: biological motion, faces in motion and voices; the superior temporal sulcus is functionally heterogeneous.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Hein G, Knight RT (2008). Superior temporal sulcus - it's my area: or is it? J Cogn Neurosci 20, 2125-2136.",
+          "doi": "10.1162/jocn.2008.20148"
+        }
+      ]
+    },
+    "LBelt": {
+      "full_name": "Lateral Belt Complex",
+      "location": "Lateral to A1 on Heschl's gyrus / superior temporal plane.",
+      "function": "Auditory belt cortex: second stage of cortical auditory processing with tonotopic organisation.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Moerel M, De Martino F, Formisano E (2014). An anatomical and functional topography of human auditory cortical areas. Front Neurosci 8, 225.",
+          "doi": "10.3389/fnins.2014.00225"
+        }
+      ]
+    },
+    "MBelt": {
+      "full_name": "Medial Belt Complex",
+      "location": "Medial to A1 on the superior temporal plane.",
+      "function": "Auditory belt cortex surrounding the core; tonotopically organised.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Moerel M, De Martino F, Formisano E (2014). An anatomical and functional topography of human auditory cortical areas. Front Neurosci 8, 225.",
+          "doi": "10.3389/fnins.2014.00225"
+        }
+      ]
+    },
+    "PBelt": {
+      "full_name": "ParaBelt Complex",
+      "location": "Lateral superior temporal gyrus, lateral to the belt areas.",
+      "function": "Auditory parabelt cortex: higher-order auditory processing beyond core and belt.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Moerel M, De Martino F, Formisano E (2014). An anatomical and functional topography of human auditory cortical areas. Front Neurosci 8, 225.",
+          "doi": "10.3389/fnins.2014.00225"
+        }
+      ]
+    },
+    "10pp": {
+      "full_name": "Polar 10p",
+      "location": "Frontal pole.",
+      "function": "Anterior prefrontal cortex: integrating outcomes of multiple cognitive operations, e.g. during multitasking and prospective memory.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Ramnani N, Owen AM (2004). Anterior prefrontal cortex: insights into function from anatomy and neuroimaging. Nat Rev Neurosci 5, 184-194.",
+          "doi": "10.1038/nrn1343"
+        }
+      ]
+    },
+    "46": {
+      "full_name": "Area 46",
+      "location": "Middle frontal gyrus, dorsolateral prefrontal cortex.",
+      "function": "Working memory, especially monitoring and manipulation of information held in mind.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Petrides M (2005). Lateral prefrontal cortex: architectonic and functional organization. Phil Trans R Soc B 360, 781-795.",
+          "doi": "10.1098/rstb.2005.1631"
+        }
+      ]
+    },
+    "9-46d": {
+      "full_name": "Area 9-46d",
+      "location": "Dorsal middle frontal gyrus, dorsolateral prefrontal cortex.",
+      "function": "Executive functions and monitoring within working memory.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Petrides M (2005). Lateral prefrontal cortex: architectonic and functional organization. Phil Trans R Soc B 360, 781-795.",
+          "doi": "10.1098/rstb.2005.1631"
+        }
+      ]
+    },
+    "OFC": {
+      "full_name": "Orbital Frontal Complex",
+      "location": "Orbital surface of the frontal lobe.",
+      "function": "Representation of reward value and hedonic experience; guides decision making.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Kringelbach ML (2005). The human orbitofrontal cortex: linking reward to hedonic experience. Nat Rev Neurosci 6, 691-702.",
+          "doi": "10.1038/nrn1747"
+        }
+      ]
+    },
+    "13l": {
+      "full_name": "Area 13l",
+      "location": "Posterior orbitofrontal cortex, lateral part.",
+      "function": "Orbitofrontal area involved in reward value and reinforcement learning.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Kringelbach ML (2005). The human orbitofrontal cortex: linking reward to hedonic experience. Nat Rev Neurosci 6, 691-702.",
+          "doi": "10.1038/nrn1747"
+        }
+      ]
+    },
+    "AIP": {
+      "full_name": "Anterior IntraParietal Area",
+      "location": "Anterior intraparietal sulcus, near the postcentral sulcus.",
+      "function": "Visually guided grasping and hand-object interactions.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Culham JC, Valyear KF (2006). Human parietal cortex in action. Curr Opin Neurobiol 16, 205-212.",
+          "doi": "10.1016/j.conb.2006.03.005"
+        }
+      ]
+    },
+    "VIP": {
+      "full_name": "Ventral IntraParietal Complex",
+      "location": "Fundus of the intraparietal sulcus.",
+      "function": "Multisensory motion processing (visual, tactile, auditory) in near-personal space.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Bremmer F et al. (2001). Polymodal motion processing in posterior parietal and premotor cortex: a human fMRI study strongly implies equivalencies between humans and monkeys. Neuron 29, 287-296.",
+          "doi": "10.1016/S0896-6273(01)00198-2"
+        }
+      ]
+    },
+    "LIPv": {
+      "full_name": "Area Lateral IntraParietal ventral",
+      "location": "Lateral bank of the intraparietal sulcus.",
+      "function": "Saccade planning and shifts of visuospatial attention; a retinotopic map of contralateral space was reported here, though the human homologue of macaque LIP is debated.",
+      "status": "established (homology with macaque LIP debated)",
+      "references": [
+        {
+          "text": "Sereno MI, Pitzalis S, Martinez A (2001). Mapping of contralateral space in retinotopic coordinates by a parietal cortical area in humans. Science 294, 1350-1354.",
+          "doi": "10.1126/science.1063695"
+        }
+      ]
+    },
+    "LIPd": {
+      "full_name": "Area Lateral IntraParietal dorsal",
+      "location": "Lateral bank of the intraparietal sulcus, dorsal part.",
+      "function": "Saccade planning and visuospatial attention, like LIPv.",
+      "status": "established (homology with macaque LIP debated)",
+      "references": [
+        {
+          "text": "Sereno MI, Pitzalis S, Martinez A (2001). Mapping of contralateral space in retinotopic coordinates by a parietal cortical area in humans. Science 294, 1350-1354.",
+          "doi": "10.1126/science.1063695"
+        }
+      ]
+    },
+    "Pir": {
+      "full_name": "Piriform Cortex",
+      "location": "Medial temporal / frontal junction near the uncus.",
+      "function": "Primary olfactory cortex: odour object perception.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Gottfried JA (2010). Central mechanisms of odour object perception. Nat Rev Neurosci 11, 628-641.",
+          "doi": "10.1038/nrn2883"
+        }
+      ]
+    },
+    "25": {
+      "full_name": "Area 25",
+      "location": "Subgenual cingulate cortex.",
+      "function": "Mood regulation; a target of deep brain stimulation for treatment-resistant depression.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Mayberg HS et al. (2005). Deep brain stimulation for treatment-resistant depression. Neuron 45, 651-660.",
+          "doi": "10.1016/j.neuron.2005.02.014"
+        }
+      ]
+    },
+    "OP1": {
+      "full_name": "Area OP1/SII",
+      "location": "Parietal operculum.",
+      "function": "Secondary somatosensory cortex (SII): somatosensory processing, including bilateral tactile input.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Eickhoff SB et al. (2006). The human parietal operculum. I. Cytoarchitectonic mapping of subdivisions. Cereb Cortex 16, 254-267.",
+          "doi": "10.1093/cercor/bhi105"
+        }
+      ]
+    },
+    "OP4": {
+      "full_name": "Area OP4/PV",
+      "location": "Parietal operculum, anterior part.",
+      "function": "Parietal ventral area: somatosensory processing with a somatotopic map.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Eickhoff SB et al. (2006). The human parietal operculum. I. Cytoarchitectonic mapping of subdivisions. Cereb Cortex 16, 254-267.",
+          "doi": "10.1093/cercor/bhi105"
+        }
+      ]
+    },
+    "OP2-3": {
+      "full_name": "Area OP2-3/VS",
+      "location": "Parietal operculum, deep part near the posterior insula.",
+      "function": "Vestibular cortex (OP2 is the proposed core of the human vestibular cortex).",
+      "status": "established",
+      "references": [
+        {
+          "text": "Eickhoff SB et al. (2006). The human parietal operculum. I. Cytoarchitectonic mapping of subdivisions. Cereb Cortex 16, 254-267.",
+          "doi": "10.1093/cercor/bhi105"
+        },
+        {
+          "text": "zu Eulenburg P et al. (2012). Meta-analytical definition and functional connectivity of the human vestibular cortex. NeuroImage 60, 162-169.",
+          "doi": "10.1016/j.neuroimage.2011.12.032"
+        }
+      ]
+    },
+    "IFJa": {
+      "full_name": "Area IFJ anterior",
+      "location": "Inferior frontal junction: junction of the inferior frontal and precentral sulci.",
+      "function": "Cognitive control, especially task switching and updating of task representations.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Brass M et al. (2005). The role of the inferior frontal junction area in cognitive control. Trends Cogn Sci 9, 314-316.",
+          "doi": "10.1016/j.tics.2005.05.001"
+        }
+      ]
+    },
+    "IFJp": {
+      "full_name": "Area IFJ posterior",
+      "location": "Inferior frontal junction, posterior part.",
+      "function": "Cognitive control, especially task switching and updating of task representations.",
+      "status": "established",
+      "references": [
+        {
+          "text": "Brass M et al. (2005). The role of the inferior frontal junction area in cognitive control. Trends Cogn Sci 9, 314-316.",
+          "doi": "10.1016/j.tics.2005.05.001"
+        }
+      ]
+    },
+    "SFL": {
+      "full_name": "Superior Frontal Language Area",
+      "location": "Medial superior frontal gyrus.",
+      "function": "Named in HCP-MMP1.0 for its activation in the language task contrast; its function is not well characterised beyond this.",
+      "status": "tentative",
+      "references": [
+        {
+          "text": "Glasser MF et al. (2016). A multi-modal parcellation of human cerebral cortex. Nature 536, 171-178.",
+          "doi": "10.1038/nature18933"
+        }
+      ]
+    },
+    "PEF": {
+      "full_name": "Premotor Eye Field",
+      "location": "Ventral premotor cortex, posterior to area 55b.",
+      "function": "Named in HCP-MMP1.0 for activation during eye-movement tasks; a second frontal eye-movement area besides FEF.",
+      "status": "tentative",
+      "references": [
+        {
+          "text": "Glasser MF et al. (2016). A multi-modal parcellation of human cerebral cortex. Nature 536, 171-178.",
+          "doi": "10.1038/nature18933"
+        },
+        {
+          "text": "Paus T (1996). Location and function of the human frontal eye-field: a selective review. Neuropsychologia 34, 475-483.",
+          "doi": "10.1016/0028-3932(95)00134-4"
+        }
+      ]
+    }
+  }
+}

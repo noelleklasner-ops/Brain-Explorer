@@ -1,0 +1,70 @@
+{
+  "atlas": {
+    "name": "Yeo 7 resting-state networks (Yeo et al. 2011)",
+    "description": "Seven cortical networks obtained by clustering resting-state functional connectivity of 1000 subjects.",
+    "reference": {"text": "Yeo BTT et al. (2011). The organization of the human cerebral cortex estimated by intrinsic functional connectivity. J Neurophysiol 106, 1125-1165.", "doi": "10.1152/jn.00338.2011"},
+    "data_source": "fsLR 32k dlabel file from the CBIG GitHub repository (ThomasYeoLab/CBIG).",
+    "note": "Network names follow the common usage of Yeo et al. 2011; descriptions summarise the cited reviews."
+  },
+  "regions": {
+    "Visual": {
+      "full_name": "Visual network",
+      "location": "Occipital lobe, extending into posterior temporal and parietal cortex.",
+      "function": "Visual processing.",
+      "status": "established",
+      "references": []
+    },
+    "Somatomotor": {
+      "full_name": "Somatomotor network",
+      "location": "Pre- and postcentral gyri, extending into auditory cortex.",
+      "function": "Motor and somatosensory cortex; in the 7-network solution auditory cortex is included as well.",
+      "status": "established",
+      "references": []
+    },
+    "Dorsal attention": {
+      "full_name": "Dorsal attention network",
+      "location": "Intraparietal sulcus, superior parietal lobule, frontal eye fields and MT+.",
+      "function": "Top-down, goal-directed control of spatial attention.",
+      "status": "established",
+      "references": [
+        {"text": "Corbetta M, Shulman GL (2002). Control of goal-directed and stimulus-driven attention in the brain. Nat Rev Neurosci 3, 201-215.", "doi": "10.1038/nrn755"}
+      ]
+    },
+    "Ventral attention": {
+      "full_name": "Ventral attention network",
+      "location": "Temporo-parietal junction, ventral frontal cortex, anterior insula and dorsal anterior cingulate.",
+      "function": "Stimulus-driven reorienting of attention. Overlaps with the 'salience' and 'cingulo-opercular' networks described by other groups.",
+      "status": "established (naming differs between studies)",
+      "references": [
+        {"text": "Corbetta M, Shulman GL (2002). Control of goal-directed and stimulus-driven attention in the brain. Nat Rev Neurosci 3, 201-215.", "doi": "10.1038/nrn755"},
+        {"text": "Seeley WW et al. (2007). Dissociable intrinsic connectivity networks for salience processing and executive control. J Neurosci 27, 2349-2356.", "doi": "10.1523/JNEUROSCI.5587-06.2007"}
+      ]
+    },
+    "Limbic": {
+      "full_name": "Limbic network",
+      "location": "Temporal pole and orbitofrontal cortex.",
+      "function": "Functionally heterogeneous. fMRI signal in these regions suffers from susceptibility artefacts, so the network boundaries are less reliable than elsewhere.",
+      "status": "tentative",
+      "references": []
+    },
+    "Frontoparietal": {
+      "full_name": "Frontoparietal control network",
+      "location": "Lateral prefrontal cortex, anterior inferior parietal lobule and part of the precuneus.",
+      "function": "Cognitive control and executive function; flexibly couples with the default and dorsal attention networks depending on task demands.",
+      "status": "established",
+      "references": [
+        {"text": "Vincent JL et al. (2008). Evidence for a frontoparietal control system revealed by intrinsic functional connectivity. J Neurophysiol 100, 3328-3342.", "doi": "10.1152/jn.90355.2008"}
+      ]
+    },
+    "Default": {
+      "full_name": "Default mode network",
+      "location": "Medial prefrontal cortex, posterior cingulate/precuneus, angular gyrus and lateral temporal cortex.",
+      "function": "More active at rest than during externally directed tasks; linked to self-referential thought, memory retrieval and mental simulation.",
+      "status": "established",
+      "references": [
+        {"text": "Raichle ME et al. (2001). A default mode of brain function. PNAS 98, 676-682.", "doi": "10.1073/pnas.98.2.676"},
+        {"text": "Buckner RL, Andrews-Hanna JR, Schacter DL (2008). The brain's default network: anatomy, function, and relevance to disease. Ann N Y Acad Sci 1124, 1-38.", "doi": "10.1196/annals.1440.011"}
+      ]
+    }
+  }
+}

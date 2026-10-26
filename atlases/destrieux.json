@@ -1,0 +1,10 @@
+{
+  "atlas": {
+    "name": "Destrieux atlas (Destrieux et al. 2010)",
+    "description": "Anatomical parcellation of each hemisphere into 74 regions that separate gyri (G_) from sulci (S_). This is FreeSurfer's 'aparc.a2009s' atlas.",
+    "reference": {"text": "Destrieux C, Fischl B, Dale A, Halgren E (2010). Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature. NeuroImage 53, 1-15.", "doi": "10.1016/j.neuroimage.2010.06.010"},
+    "data_source": "Vertex labels on fsLR 32k (conte69) from micapipe (MICA-MNI).",
+    "note": "Region names are FreeSurfer abbreviations: G = gyrus, S = sulcus, G_and_S = gyrus and sulcus. Full names are listed in Table 1 of the reference."
+  },
+  "regions": {}
+}

@@ -1,0 +1,10 @@
+{
+  "atlas": {
+    "name": "Yeo 17 resting-state networks (Yeo et al. 2011)",
+    "description": "Finer 17-network solution from the same clustering as the 7-network atlas. The original paper does not name the 17 networks, so they are numbered here; several of them subdivide the 7 coarse networks.",
+    "reference": {"text": "Yeo BTT et al. (2011). The organization of the human cerebral cortex estimated by intrinsic functional connectivity. J Neurophysiol 106, 1125-1165.", "doi": "10.1152/jn.00338.2011"},
+    "data_source": "fsLR 32k dlabel file from the CBIG GitHub repository (ThomasYeoLab/CBIG).",
+    "note": "No curated descriptions; use the Yeo 7 overlap shown for each network."
+  },
+  "regions": {}
+}
